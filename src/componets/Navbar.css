@@ -1,0 +1,29 @@
+
+.navbar {
+   
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link .ShoppingCart {
+    margin-left: 5px;
+}

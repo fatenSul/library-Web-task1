@@ -1,0 +1,100 @@
+.SBcontainer{
+    background: linear-gradient(to right, #251c0b, #b06004);
+
+}
+
+.search-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background: linear-gradient(to right, #3d2e10, #e2e2e2); */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1400px;
+    margin: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fafafa;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight:500;
+    color: #b06004;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.book-quotes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: url('./old-paper-texture.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.book-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.book-quote:nth-child(4),
+.book-quote:nth-child(5) {
+    grid-column: span 1; /* Adjust layout to ensure correct positioning */
+}
+
+.book-image {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.quote-text {
+    font-size: 16px;
+    color: #343a40;
+    font-style: italic;
+}

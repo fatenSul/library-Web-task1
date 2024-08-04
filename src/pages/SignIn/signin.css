@@ -1,0 +1,82 @@
+.signin-container {
+    background-image: url('./1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    background-color: #f5f5f5;
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Makes sure the body takes the full height of the viewport */
+    width: 100vw; /* Makes sure the body takes the full width of the viewport */
+    overflow: hidden;
+}
+
+
+
+.signin-card {
+    width: 450px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signin-card h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.signin-card p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signin-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-card label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.signin-card input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.signin-card button {
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signin-card button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.signin-card p a {
+    color: rgba(163, 16, 40, 0.051);
+    text-decoration: none;
+}
+
+.signin-card p a:hover {
+    text-decoration: underline;
+}

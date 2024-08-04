@@ -1,0 +1,9 @@
+.book-list {
+    background: linear-gradient(to right, #251c0b, #b06004);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    justify-content: center;
+}

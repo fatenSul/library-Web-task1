@@ -1,0 +1,98 @@
+.holderContainer {
+    background-image: url('../Home/OIP.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Makes sure the body takes the full height of the viewport */
+    width: 100vw; /* Makes sure the body takes the full width of the viewport */
+    overflow: hidden;
+}
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container2 p {
+    color: white;
+    font-weight: 400;
+}
+
+.container2 h1 {
+    text-align: center;
+    color: #ccc;
+}
+
+.container2 h2 {
+    text-align: center;
+    color: #ccc;
+}
+
+label {
+    color: #f5f5f5;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+textarea{
+    width: 260px;
+    padding-left: 530px;
+}
+.container2 button {
+    padding: 10px 20px;
+    padding-left: 40px;
+    background-color: #623106;
+    color: white;
+    border: none;
+    width: 170px;   
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b3ad00;
+}
+
+p {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #ccc;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}

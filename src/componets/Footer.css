@@ -1,0 +1,64 @@
+
+.footer {
+    background-color: rgba(188, 59, 59, 0); /* Default background color */
+    color: #a04f4f;
+    padding: 20px 0;
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.footer__card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex: 1; /* Each card takes up equal space */
+    max-width: 300px; /* Limit the width of each card */
+    margin: 0 10px; /* Add some space between cards */
+}
+
+.footer__card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer__card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__card ul li {
+    margin-bottom: 5px;
+}
+
+.footer__card a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer__card form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__card input[type="email"] {
+    padding: 5px;
+    margin-right: 5px;
+    flex: 1;
+}
+
+.footer__card button {
+    padding: 5px 10px;
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.footer__bottom {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%; /* Ensure the bottom section spans the full width */
+}
